@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Http\Requests;
 
+use App\AttendanceRecord;
+
+use App\User;
 class AttendanceRecordController extends Controller
 {
 
